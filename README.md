@@ -1,5 +1,7 @@
 # code-smarter
 
+Built for [Stuffolio](https://stuffolio.app), an iOS/macOS inventory management app.
+
 **Claude Code skills that help you work smarter -- auto-fix your prompts, generate personalized coding lessons from your own codebase, and more.**
 
 ## Skills
@@ -162,6 +164,17 @@ If code-smarter helps you *understand* your code, Radar Suite helps you *trust* 
 ```bash
 git clone https://github.com/Terryc21/radar-suite.git
 cp -r radar-suite/skills/* ~/.claude/skills/
+```
+
+### [Workflow Audit](https://github.com/Terryc21/workflow-audit)
+
+**5-layer SwiftUI user flow audit for Claude Code.**
+
+Discovers entry points, traces user paths, detects dead ends and UX friction, evaluates discoverability, and verifies data wiring. Works standalone or alongside Radar Suite.
+
+```bash
+claude plugin marketplace add Terryc21/workflow-audit
+claude plugin install workflow-audit
 ```
 
 ## Support
