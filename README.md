@@ -146,38 +146,10 @@ These skills were built during development of [Stuffolio](https://stuffolio.app)
 
 14 tutorials later (with 134 tracked vocabulary terms), the approach proved effective enough to generalize.
 
-## Also By This Author
+## See Also
 
-### [Radar Suite](https://github.com/Terryc21/radar-suite)
-
-**7 audit skills for Claude Code that find bugs before your users do.**
-
-If code-smarter helps you *understand* your code, Radar Suite helps you *trust* it. It traces data through complete user flows -- backup/restore round-trips, navigation paths, schema migrations, deferred operations -- and catches bugs that file-level pattern matching misses.
-
-| Skill | What It Catches |
-|-------|----------------|
-| **data-model-radar** | Schema gaps, serialization loss, relationship integrity |
-| **time-bomb-radar** | Deferred operations that crash weeks after release |
-| **ui-path-radar** | Dead-end navigation, unreachable features, broken deep links |
-| **roundtrip-radar** | Data that doesn't survive backup -> restore or export -> import |
-| **ui-enhancer-radar** | Visual quality, accessibility, design system violations |
-| **capstone-radar** | Ship/no-ship decision with A-F grading across all domains |
-
-```bash
-git clone https://github.com/Terryc21/radar-suite.git
-cp -r radar-suite/skills/* ~/.claude/skills/
-```
-
-### [Workflow Audit](https://github.com/Terryc21/workflow-audit)
-
-**5-layer SwiftUI user flow audit for Claude Code.**
-
-Discovers entry points, traces user paths, detects dead ends and UX friction, evaluates discoverability, and verifies data wiring. Works standalone or alongside Radar Suite.
-
-```bash
-claude plugin marketplace add Terryc21/workflow-audit
-claude plugin install workflow-audit
-```
+- [Radar Suite](https://github.com/Terryc21/radar-suite) -- 7 behavioral audit skills that trace data through complete user flows
+- [Workflow Audit](https://github.com/Terryc21/workflow-audit) -- 5-layer behavioral audit of SwiftUI user journeys
 
 ## Support
 
